@@ -1,0 +1,22 @@
+.dropdown{
+    border: 2px solid ;
+    border-radius: 5px;
+    height: fit-content;
+    color: white;
+    background-color: #fe4066;
+    opacity: 1;
+    transform: scaleY(10px);
+    transition: transform 1s ease;
+    cursor: pointer;
+}    
+.dropdown-main{
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 10%;
+}
+.dropdown-main1{
+    display: none;
+    transition: opacity 0.5s ease;
+}

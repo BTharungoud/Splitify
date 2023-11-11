@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+        background: radial-gradient(circle,rgb(77, 76, 76), rgb(35, 30, 30), rgb(16, 16, 16));
+        justify-content: center;
+        align-items: center;
+}
+.ShowPDF{
+    display: flex;
+    max-width: 80vw;
+    max-height: 90vh;
+}
+.navButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.slidebar{
+    position: fixed;
+    z-index: 35;
+}
